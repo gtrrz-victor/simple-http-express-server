@@ -7,6 +7,7 @@ app.get('/health', (_, res) => {
 })
 
 app.get('/break', (_, res) => {
+    res.send()
     server.close()
 })
 
